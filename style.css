@@ -1,0 +1,270 @@
+:root {
+    --primary-background: #4a3729;
+    --secondary-background: #d2cfc8;
+    --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url("assets/img/hero-image.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text {
+    color: var(--secondary-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.hero-text h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.hero-text h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-bride {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-bride p {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--secondary-background);
+    color: var(--primary-background);
+    padding: 12px 24px;
+    border-radius: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+}
+
+.hero-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: var(--primary-background);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Greeting Section */
+.greeting {
+    height: auto;
+    background-color: var(--secondary-background);
+    padding: 35px;
+    color: var(--primary-background);
+}
+
+.greeting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.greeting-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.greeting-text h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.greeting-text h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.greeting-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* Wedding Events Section */
+.wedding-event {
+    height: auto;
+    background-color: var(--primary-background);
+    color: var(--secondary-background);
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wedding-event h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.wedding-event-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.wedding-event-card {
+    position: relative;
+    color: var(--primary-background);
+    background-color: var(--secondary-background);
+    width: 100%;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.wedding-event-card h2 {
+    text-align: center;
+}
+
+.wedding-event-card-main {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.wedding-event-card-text {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: auto;
+    width: max-content;
+}
+
+.wedding-event-card-text p {
+    font-size: 14px;
+}
+
+.wedding-event-card-text span {
+    font-weight: 600;
+}
+
+.wedding-event-card-text img {
+    width: 24px;
+    height: 24px;
+}
+
+.wedding-event-card-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.wedding-event-card-button a {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--secondary-background);
+    background-color: var(--primary-background);
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+
+.wedding-event-container h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.countdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.countdown-content p {
+    font-family: 'Playfair Dipslay', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.timer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: var(--secondary-background);
+    text-shadow: var(--shadow);
+    color: #3d2c23;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
