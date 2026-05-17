@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+body.lock-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
 .hero {
     background-image: url("assets/img/hero-image.jpeg");
     background-position: center;
@@ -104,7 +109,7 @@
 /* Greeting Section */
 .greeting {
     height: auto;
-    background-image: url('assets/img/brown-watercolor-leaf-background-aesthetic-autumn-season.jpg');
+    background-image: url("assets/img/brown-watercolor-leaf-background-aesthetic-autumn-season.jpg");
     background-position: center;
     background-size: cover;
     padding: 35px;
@@ -248,7 +253,7 @@
 }
 
 .wedding-event-container h3 {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 28px;
     text-align: center;
 }
@@ -268,7 +273,7 @@
 }
 
 .countdown-content p {
-    font-family: 'Playfair Dipslay', sans-serif;
+    font-family: "Playfair Dipslay", sans-serif;
     font-weight: 600;
     font-size: 16px;
 }
@@ -289,11 +294,12 @@
 .footer {
     background-color: var(--secondary-background);
     color: var(--primary-background);
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 35px;
 }
 
-.footer-container, .footer-content{
+.footer-container,
+.footer-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,7 +308,7 @@
 }
 
 .footer-container h1 {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: "Playfair Display", sans-serif;
     font-size: 28px;
     font-weight: 600;
 }
@@ -313,7 +319,7 @@
     text-align: center;
 }
 
-.footer-card{
+.footer-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,7 +351,7 @@
 }
 
 .footer-card-text button {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 14px;
     color: var(--secondary-background);
@@ -360,6 +366,3 @@
     font-size: 14px;
     text-align: center;
 }
-
-
-

@@ -24,3 +24,20 @@ if (guest) {
     document.getElementById("guest-name").textContent =
         decodeURIComponent(guest);
 }
+
+// Music Add
+const button = document.getElementById("open-btn");
+const music = document.getElementById("bg-music");
+
+button.addEventListener("click", () => {
+    music.play();
+    // buka scroll
+    document.body.classList.remove("lock-scroll");
+
+    // scroll ke greeting
+    document.getElementById("greeting").scrollIntoView({
+        behavior: "smooth",
+    });
+});
+
+// Open Invitation Button
