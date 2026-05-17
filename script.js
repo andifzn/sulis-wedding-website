@@ -15,3 +15,12 @@ const x = setInterval(() => {
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
 }, 1000);
+
+// Change Guest Name
+const params = new URLSearchParams(window.location.search);
+const guest = params.get("to");
+
+if (guest) {
+    document.getElementById("guest-name").textContent =
+        decodeURIComponent(guest);
+}
