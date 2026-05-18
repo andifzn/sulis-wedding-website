@@ -40,4 +40,16 @@ button.addEventListener("click", () => {
     });
 });
 
-// Open Invitation Button
+// Saling Rekening
+function copyRekening(id) {
+    const rekening = document.getElementById(id).innerText;
+    const button = event.target;
+
+    navigator.clipboard.writeText(rekening).then(() => {
+        button.innerText = "Berhasil Disalin!";
+
+        setTimeout(() => {
+            button.innerText = "Salin Rekening";
+        }, 2000);
+    });
+}

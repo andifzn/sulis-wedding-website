@@ -50,19 +50,19 @@ body.lock-scroll {
 
 .hero-text h1 {
     font-family: "Playfair Display", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 .hero-text p {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
 }
 
 .hero-text h2 {
     font-family: "Playfair Display", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -76,7 +76,7 @@ body.lock-scroll {
 
 .hero-bride p {
     font-family: "Great Vibes", sans-serif;
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 400;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
@@ -108,6 +108,7 @@ body.lock-scroll {
 
 /* Greeting Section */
 .greeting {
+    position: relative;
     height: auto;
     background-image: url("assets/img/brown-watercolor-leaf-background-aesthetic-autumn-season.jpg");
     background-position: center;
@@ -123,6 +124,12 @@ body.lock-scroll {
     align-items: center;
     text-align: center;
     gap: 20px;
+    width: 100%;
+}
+
+.greeting-container img {
+    width: 100%;
+    height: 100%;
 }
 
 .greeting-text {
@@ -169,24 +176,26 @@ body.lock-scroll {
 }
 
 .wedding-event-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 35px;
+    width: 100%;
 }
 
 .wedding-event-card {
     position: relative;
     color: var(--primary-background);
     background-color: var(--secondary-background);
-    width: 100%;
     padding: 25px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 35px;
+    max-width: 100%;
 }
 
 .wedding-event-card h2 {
@@ -199,7 +208,7 @@ body.lock-scroll {
     position: absolute;
     background-color: var(--primary-background);
     height: 2px;
-    width: 100%;
+    max-width: 100%;
     left: 0;
     right: 0;
     top: 65px;
@@ -207,10 +216,12 @@ body.lock-scroll {
 }
 
 .wedding-event-card-main {
+    position: relative;
     height: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-width: 100%;
 }
 
 .wedding-event-card-text {
@@ -219,7 +230,7 @@ body.lock-scroll {
     gap: 10px;
     align-items: center;
     height: auto;
-    width: max-content;
+    width: 100%;
 }
 
 .wedding-event-card-text p {
