@@ -118,6 +118,7 @@ body.lock-scroll {
 }
 
 .greeting-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +129,7 @@ body.lock-scroll {
 }
 
 .greeting-container img {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 
